@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.Logger.OutputWindowLogger" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAEAAAAA=</HashCode>
+      <FileName>Logger\OutputWindowLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.Model.ApiSettings">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAA=</HashCode>
+      <FileName>Model\ApiSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.Model.ArticleListItem">
+    <Position X="13.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ArticleListItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.Model.DatasetSelectionItem">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DatasetSelectionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.Model.EntitlementSelectionItem">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Model\EntitlementSelectionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.OpenId.Browser" BaseTypeListCollapsed="true">
+    <Position X="15" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgACAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>OpenId\Browser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.OpenId.SageIdMauiSettings" BaseTypeListCollapsed="true">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAACAAgAAAAAAAABBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpenId\SageIdMauiSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.MainActivity">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Platforms\Android\MainActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.MainApplication">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Platforms\Android\MainApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.App">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.AppShell">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppShell.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.MauiProgram">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MauiProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.View.DataSetSelectionPage">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\DataSetSelectionPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.View.EntitlementSelectionPage">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\EntitlementSelectionPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.View.WelcomePage">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\WelcomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.ViewModel.DataSetSelectionPageViewModel">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAACAACAAAAAAAEAAAAAAAAAAAEA4AA=</HashCode>
+      <FileName>ViewModel\DataSetSelectionPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.ViewModel.EntitlementSelectionPageViewModel">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgAIAAACAAAAAAAAAAAAAAAAAAAAAAEAcAA=</HashCode>
+      <FileName>ViewModel\EntitlementSelectionPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.App.ViewModel.WelcomePageViewModel">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAQAAUAAAA=</HashCode>
+      <FileName>ViewModel\WelcomePageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.Exceptions.HttpException" Collapsed="true">
+    <Position X="13.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.Extensions.SecureStringExtensions" Collapsed="true">
+    <Position X="8" Y="15.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DatasetItem" Collapsed="true">
+    <Position X="8" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DatasetResponse" Collapsed="true">
+    <Position X="9.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Diagnoses" Collapsed="true">
+    <Position X="11.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DiagnosList" Collapsed="true">
+    <Position X="13.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entitlement" Collapsed="true">
+    <Position X="8" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entitlements" Collapsed="true">
+    <Position X="9.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.Model.InsecureSageIdToken" Collapsed="true">
+    <Position X="8" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.Model.SageIdRequestResult" Collapsed="true">
+    <Position X="11.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.OpenId.SageIdClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.Token.FileTokenService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.Token.SageIdToken" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AAIC.API.CLient.Sage100.Mobile.Lib.Token.TokenService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="AAIC.API.CLient.Sage100.Mobile.App.Logger.IAppLogger">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAEAAAAA=</HashCode>
+      <FileName>Logger\IAppLogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AAIC.API.CLient.Sage100.Mobile.Lib.OpenId.ISageIdClient" Collapsed="true">
+    <Position X="8" Y="16.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AAIC.API.CLient.Sage100.Mobile.Lib.OpenId.ISageIdSettings" Collapsed="true">
+    <Position X="9.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AAIC.API.CLient.Sage100.Mobile.Lib.Token.ISageIdToken" Collapsed="true">
+    <Position X="11.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AAIC.API.CLient.Sage100.Mobile.Lib.Token.ITokenService" Collapsed="true">
+    <Position X="13.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AAIC.API.CLient.Sage100.Mobile.App.View.EntitlementSelectionPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             
+             Title="Lizenzauswahl"
+             xmlns:vm="clr-namespace:AAIC.API.CLient.Sage100.Mobile.App.ViewModel">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="NavigatedTo" Command="{Binding NavigateToCommand}" />
+    </ContentPage.Behaviors>
+
+    <VerticalStackLayout>
+        <Image Source="sage100mobile_black.png" HeightRequest="50" Margin="0,20,0,20" />
+        <Label Text="Wählen Sie Ihre Lizenz aus:" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,10" />
+
+        <ActivityIndicator IsRunning="True" IsVisible="{Binding ActivityIndicatorIsVisible}" />
+
+        <CollectionView ItemsSource="{Binding Entitlements}" VerticalOptions="Center">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="2,5">
+                        <Frame>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Path=SelectEntitlementCommand,
+                                    Source={RelativeSource AncestorType={x:Type vm:EntitlementSelectionPageViewModel}} }"
+                                    CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                            <Label  Text="{Binding DisplayName}" MaxLines="2"  /> 
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
+<!-- x:DataType="vm:DataSetSelectionPageViewModel"
+    EventName="NavigateTo"-->
+    <!-- Relevant , zu allem belesen -->

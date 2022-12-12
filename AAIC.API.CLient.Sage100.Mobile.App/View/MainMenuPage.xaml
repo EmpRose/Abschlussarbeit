@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AAIC.API.CLient.Sage100.Mobile.App.View.MainMenuPage"
+             Title="Hauptmenü">
+
+    <Grid RowDefinitions="Auto,*,Auto" Padding="5" RowSpacing="10">
+        <Image Source= "sage100mobile_black.png" HeightRequest="50" Margin="0,20,0,20" />
+
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="5">
+                <Button Text="Artikelstamm" Command="{Binding GoToArtikelstammCommand}" ImageSource="booktag30.png" Margin="30,0,30,5" />
+
+                <Button Text="Kundenstamm" Command="{Binding GoToArtikelstammCommand}" ImageSource="person30.png" Margin="30,0,30,5"/>
+                <Button Text="Lieferanten" Command="{Binding GoToArtikelstammCommand}" ImageSource="person30.png" Margin="30,0,30,5"/>
+                <Button Text="Posteingangsmanager" Command="{Binding GoToPosteingangsmanagerCommand}" ImageSource="person30.png" Margin="30,0,30,5" /> 
+                
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <VerticalStackLayout Grid.Row="2" HorizontalOptions="Center">
+            <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="Auto,Auto" ColumnSpacing="5">
+                <Label Grid.Row="0" Grid.Column="0" Text="Mandant: " FontSize="12" HorizontalOptions="Start" />
+                <Label Grid.Row="1" Grid.Column="0" Text="Lizenz: " FontSize="12" HorizontalOptions="Start" />
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding DatenbankName}" FontSize="12" HorizontalOptions="Start" />
+                <Label Grid.Row="1" Grid.Column="1" Text="{Binding LizenzName}" FontSize="12" HorizontalOptions="Start" />
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

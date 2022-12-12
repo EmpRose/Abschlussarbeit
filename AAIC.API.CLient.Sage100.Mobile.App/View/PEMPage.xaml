@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AAIC.API.CLient.Sage100.Mobile.App.ViewPEMPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:AAIC.API.CLient.Sage100.Mobile.App.ViewModel"
+             Title="Posteingangsmanager">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="NavigatedTo" Command="{Binding NavigateToCommand}" />
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="Auto,*" Padding="8" RowSpacing="10">
+        <Border Grid.Row="0" StrokeShape="RoundRectangle 7">
+            <Entry Margin="5,0" Placeholder="Artikel finden" VerticalTextAlignment="Center" Text="{Binding ArticleSearch}" />
+        </Border>
+
+        <ScrollView Grid.Row="1">
+            <Grid RowDefinitions="Auto,Auto">
+
+                <ActivityIndicator IsRunning="true" IsVisible="{Binding ActivityIndicatorIsVisible}" Grid.Row="0" />
+
+                <CollectionView ItemsSource="{Binding Post}" Grid.Row="1">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="8" Margin="0,2,0,0">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Path=SelectPostCommand, Source={RelativeSource AncestorType={x:Type vm:PEMPageViewModel}}}"
+                                                          CommandParameter="{Binding .}" />
+                                </Frame.GestureRecognizers>
+
+                                <Grid RowDefinitions="25,25">
+                                    <Label Grid.Row="0" Text="{Binding Artikelnummer}" MaxLines="2" />
+                                    <Label Grid.Row="1" Text="{Binding Matchcode}" MaxLines="2"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

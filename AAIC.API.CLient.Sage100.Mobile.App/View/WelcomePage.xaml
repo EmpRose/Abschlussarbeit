@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AAIC.API.CLient.Sage100.Mobile.App.View.WelcomePage"
+             
+             xmlns:viewmodel="clr-namespace:AAIC.API.CLient.Sage100.Mobile.App.ViewModel"
+             x:DataType="viewmodel:WelcomePageViewModel"
+             Title="Sage 100 Mobile" 
+             BackgroundColor="Azure" >
+    <Grid RowDefinitions="15,75,Auto,Auto,*,Auto" RowSpacing="25" Margin="10" Background="azure" >
+        <Image Source="sage100mobile_black.png" Grid.Row="1" />
+
+        <Button Text="Anmelden mit Sage ID" Command="{Binding LoginCommand}" Grid.Row=" 2" Background="LightSeaGreen" FontAttributes="Bold" />
+        <Button Text="Schnellanmeldung" Command="{Binding QuickLoginCommand}" Grid.Row="3" Background="LightSeaGreen" />
+        <Button Text="Abmelden" Command="{Binding LogoutCommand}" Grid.Row="5" Background="LightSeaGreen" FontAttributes="Bold" />
+    </Grid>
+</ContentPage>
