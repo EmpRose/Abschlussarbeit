@@ -9,7 +9,7 @@ namespace AAIC.API.CLient.Sage100.Mobile.App.OpenId
         public string Authority => "https://id.sage.com/" ;
         //public string Authority => "https://PC-10:5493/";
 
-        public string ClientId => "Qg5GjXiG8ojopNXu3oBM4rJS96SMIqzp";
+        public string ClientId => "keine Angabe, da Firmeneigentum";
 
         public Parameters FrontChannelExtraParameters => new Parameters(new List<KeyValuePair<string, string>> { new KeyValuePair<string,string>("audience", "s100de/sage100") });
 
